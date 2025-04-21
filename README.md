@@ -14,15 +14,14 @@ This is my mini note-taking app
 ```bash
 git clone https://github.com/johannacb/note-management.git
 cd note-management
-
+```
 2. **Install dependencies**
-
+   
 ```bash
 php composer.phar install
-
+```
 3. **Run the proyect**
 
 ```bash
 symfony server:start
-
-
+```
