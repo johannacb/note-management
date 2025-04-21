@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{%  block body %}
+
+<h1>Note</h1>
+<div class="note-content">
+    {{ formattedNote|nl2br }}
+</div>
+
+<a href="{{ path('note_index') }}">Back</a>
+<a href="{{ path('note_edit', {'id': note.id}) }}">Edit</a>
+<a href="{{ path('note_delete', {'id': note.id}) }}">Delete</a>
+{% endblock %}

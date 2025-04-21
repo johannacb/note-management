@@ -1,0 +1,19 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+note_index:
+  path: /note
+  controller: App\Controller\NoteController::index
+
+note_new:
+  path: /note/new
+  controller: App\Controller\NoteController::new
+
+note_edit:
+  path: /note/{id}/edit
+  controller: App\Controller\NoteController::edit
+
+note_show:
+    path: /note/{id}
+    controller: App\Controller\NoteController::show
