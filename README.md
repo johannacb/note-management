@@ -17,9 +17,12 @@ cd note-management
 
 2. **Install dependencies**
 
+```bash
 php composer.phar install
 
 3. **Run the proyect**
+
+```bash
 symfony server:start
 
 
